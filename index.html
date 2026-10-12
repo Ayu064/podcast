@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MyX 播客</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; }
+  .episode:hover { transform: translateY(-2px); transition: all .2s; }
+</style>
+</head>
+<body class="bg-gradient-to-br from-gray-900 to-gray-800 text-white min-h-screen">
+<header class="max-w-3xl mx-auto px-6 pt-16 pb-12 text-center">
+  <div class="w-24 h-24 mx-auto mb-6 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center text-4xl">🎙</div>
+  <h1 class="text-4xl font-bold mb-3">MyX 播客</h1>
+  <p class="text-gray-400 text-lg mb-8">一个关于数码、生活和成长的独立播客</p>
+  <div class="flex gap-3 justify-center flex-wrap">
+    <a href="#" class="px-4 py-2 bg-purple-600 rounded-full text-sm hover:bg-purple-700">Apple Podcasts</a>
+    <a href="#" class="px-4 py-2 bg-green-600 rounded-full text-sm hover:bg-green-700">小宇宙</a>
+    <a href="#" class="px-4 py-2 bg-blue-600 rounded-full text-sm hover:bg-blue-700">网易云音乐</a>
+  </div>
+</header>
+<main class="max-w-3xl mx-auto px-6 pb-20">
+  <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
+    <span class="w-1 h-6 bg-purple-500 rounded"></span> 最新节目
+  </h2>
+  <div class="space-y-4">
+    <div class="episode bg-gray-800/50 rounded-2xl p-5 backdrop-blur">
+      <div class="flex justify-between items-start mb-3">
+        <div><h3 class="font-semibold text-lg">第 01 期：我为什么开始做播客</h3>
+        <p class="text-gray-500 text-sm mt-1">2026-10-12 · 32 分钟</p></div>
+        <span class="text-xs bg-purple-500/20 text-purple-300 px-2 py-1 rounded">首发</span>
+      </div>
+      <p class="text-gray-400 text-sm mb-4">聊聊做播客的初衷，以及我对内容创作的一些想法。</p>
+      <audio controls class="w-full h-10"><source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg"></audio>
+    </div>
+    <div class="episode bg-gray-800/50 rounded-2xl p-5 backdrop-blur">
+      <div class="flex justify-between items-start mb-3">
+        <div><h3 class="font-semibold text-lg">第 02 期：数码回收这门生意</h3>
+        <p class="text-gray-500 text-sm mt-1">2026-10-19 · 45 分钟</p></div>
+      </div>
+      <p class="text-gray-400 text-sm mb-4">在兰州做数码回收的真实经历，收机、验机、卖机的全流程。</p>
+      <audio controls class="w-full h-10"><source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" type="audio/mpeg"></audio>
+    </div>
+    <div class="episode bg-gray-800/50 rounded-2xl p-5 backdrop-blur">
+      <div class="flex justify-between items-start mb-3">
+        <div><h3 class="font-semibold text-lg">第 03 期：学生党副业的那些坑</h3>
+        <p class="text-gray-500 text-sm mt-1">2026-10-26 · 38 分钟</p></div>
+      </div>
+      <p class="text-gray-400 text-sm mb-4">随身 WiFi、话费卡、抖音运营……踩过的坑和真实收入。</p>
+      <audio controls class="w-full h-10"><source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3" type="audio/mpeg"></audio>
+    </div>
+  </div>
+  <div class="mt-12 text-center"><a href="#" class="text-gray-500 hover:text-purple-400 text-sm">查看全部 3 期 →</a></div>
+</main>
+<footer class="border-t border-gray-800 py-8 text-center text-gray-600 text-sm">
+  <p>© 2026 MyX 播客 · 用 ❤️ 制作</p>
+</footer>
+</body>
+</html>
